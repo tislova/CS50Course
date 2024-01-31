@@ -1,4 +1,4 @@
-//Determines the validity and type of credit card
+// Determines the validity and type of credit card
 #include <stdio.h>
 
 int getSum(long number);
