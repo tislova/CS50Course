@@ -1,3 +1,4 @@
+// Election of candidates based on plurality vote method
 #include <stdio.h>
 #include <string.h>
 
