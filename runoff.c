@@ -1,3 +1,4 @@
+// Election of candidates based on a ranked-choice voting system
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
