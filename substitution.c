@@ -1,3 +1,4 @@
+// Encrypts text using key from the user
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
