@@ -1,3 +1,4 @@
+// Determines grade level of inputted text
 #include <ctype.h>
 #include <math.h>
 #include <stdio.h>
