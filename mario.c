@@ -1,3 +1,4 @@
+//Prints out a pyramide of asterisks
 #include <stdio.h>
 
 void getHeight(int *height);
