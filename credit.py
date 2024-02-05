@@ -1,4 +1,4 @@
-#Determines the validity and type of credit card
+# Determines the validity and type of credit card
 def main():
     number = int(input("Number: "))
     final_sum = getSum(number)
