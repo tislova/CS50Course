@@ -1,0 +1,92 @@
+body {
+    background-color: #4D4D4D;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.title {
+    margin-top: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+.portrait-description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.travel-photo, .books-photo, .sport-photo {
+    width: 100%;
+    max-width: 356px;
+    height: auto;
+}
+
+.btn-outline-light {
+    width: 100%;
+    max-width: 194px;
+    height: auto;
+    border-radius: 40px;
+    font-size: 30px;
+    line-height: 47px;
+}
+
+.roses {
+    width: 100%;
+    height: auto;
+}
+
+.roses-description {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sport-description {
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+.back {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container1 {
+    display: flex;
+    justify-content: right; /
+    align-items: center;
+    height: 707px;
+}
+
+.trip1-photo,
+.trip3-photo,
+.trip5-photo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.trip2-photo,
+.trip4-photo,
+.trip6-photo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.question {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 36px;
+}
