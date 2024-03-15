@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <form action="/history" method="get">
+        <table class="container">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Shares</th>
+                    <th>Price</th>
+                    <th>Transacted</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for transaction in transactions %}
+                    <tr>
+                        <td>{{ transaction.symbol }}</td>
+                        <td>{{ transaction.shares}}</td>
+                        <td>{{ transaction.price | float | usd }}</td>
+                        <td>{{ transaction.timestamp }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </form>
+{% endblock %}

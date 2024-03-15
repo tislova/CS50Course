@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <form action="/" method="get">
+        <table class="container">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Shares</th>
+                    <th>Price</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for purchase in purchases %}
+                    <tr>
+                        <td>{{ purchase.symbol }}</td>
+                        <td>{{ purchase["SUM(shares)"] }}</td>
+                        <td>{{ purchase["current_price"] | float | usd }}</td>
+                        <td>{{ (purchase["current_price"] * purchase["SUM(shares)"]) | float | usd }}</td>
+                    </tr>
+                {% endfor %}
+                <tr>
+                    <th>Cash</th>
+                    <td></td>
+                    <td></td>
+                    <td>{{ cash | float | usd }}</td>
+                </tr>
+                <tr>
+                    <th>TOTAL</th>
+                    <td></td>
+                    <td></td>
+                    <td>{{ total | float | usd}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+{% endblock %}
+
