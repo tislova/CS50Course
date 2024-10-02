@@ -1,4 +1,4 @@
-#CS50x: Introduction to Computer Science Projects
+# CS50x: Introduction to Computer Science Projects
 
 This repository contains projects and problem sets from **CS50x**, an entry-level course taught by [David J. Malan](https://cs.harvard.edu/malan), offered by **Harvard University**. CS50x is an introduction to computer science and programming, suitable for students with or without prior experience. The course teaches how to think algorithmically and solve problems efficiently, using various programming languages and concepts.
 
